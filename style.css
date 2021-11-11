@@ -1,0 +1,241 @@
+
+
+							
+								
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    background-image: url('C:\CodeKentucky\git\derby_city_drip\images\coffee-hero-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+/* Navigation */
+.nav {
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+.logo img {
+    max-width: 300px;
+    padding: 0 1em;
+}
+
+.navigation {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav ul {
+    gap: 2em;
+    font-size: 17px;
+}
+
+nav a {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.secondary-link .nav-btn {
+    color: #000;
+    background-color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.nav-btn span {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-btn:hover {
+    background-color: #dea03c;
+    color: #fff;
+}
+
+.nav-btn:hover span {
+    color: #000;
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* End Navigation */
+
+/* Hero Section */
+
+.hero {
+    align-items: center;
+}
+
+.hero>* {
+    flex-basis: 100%;
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 5vw, 5rem);
+    color: #fff;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.btn {
+    background-image: url(./btn-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 1.5em;
+    color: #dea03c;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.col {
+    justify-content: center;
+    background-image: url(./Pattern.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col img {
+    max-width: 400px;
+}
+
+/* Media */
+@media screen and (max-width:1000px) {
+    body {
+        height: 100%;
+    }
+
+    .toggleMenu {
+        position: absolute;
+        right: 15px;
+        background-image: url(./openNav.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        width: 30px;
+        height: 30px;
+        padding: 2em;
+        z-index: 1000;
+    }
+
+    .toggleMenu.active {
+        position: fixed;
+        background-image: url(./closeNav.svg);
+        background-size: 25px;
+    }
+
+    .navigation {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: scale(1, 0);
+        -webkit-transform: scale(1, 0);
+        -moz-transform: scale(1, 0);
+        -ms-transform: scale(1, 0);
+        -o-transform: scale(1, 0);
+        transform-origin: top;
+        max-height: 0;
+        opacity: 0;
+    }
+
+    .navigation.active {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        max-height: 100%;
+        opacity: 1;
+        background-color: #000;
+        z-index: 999;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .secondary-link {
+        margin-top: 2.5em;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+        gap: 5em;
+        padding: 2em 0;
+    }
+
+    .col img {
+        max-width: 100%;
+    }
+
+}							
+						
+
