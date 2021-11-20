@@ -87,7 +87,16 @@ p {
 
 header {
   background: #d8ebf0;
-  padding: 0.5em 0;
+  padding: 2em 0;
+}
+
+.logo {
+  margin-right: 1em;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav__list {
@@ -95,7 +104,7 @@ header {
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }
 
 .nav__item {
