@@ -41,6 +41,12 @@ h4,
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
 h3 {
   font-size: 1.5rem;
   color: #45230F;
@@ -189,13 +195,6 @@ header {
   margin-left: 1.5em;
   display: grid;
   grid-template-columns: 1fr auto;
-}
-
-h1 {
-  font-family: 'Quantico', sans-serif;
-  text-transform: uppercase;
-  font-weight: normal;
-  line-height: 1.2;
 }
 
 button {
