@@ -219,6 +219,45 @@ header {
 
 /* Menu Item Styles End */
 
+/* Form Styles */
+
+.sign-up {
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.intro {
+  background-color: #074980;
+  color: #fff;
+  padding: 3em 0;
+}
+
+.intro-content {
+  width: 100%;
+}
+
+form {
+  max-width: 40rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  margin-top: 0.3rem;
+  padding: 0.6rem;
+  border: solid 1px #bbb;
+  border-radius: 5px;
+  width: 100%;
+  resize: none;
+  color: #333;
+}
+
 button {
   border: none;
   display: inline-block;
@@ -231,6 +270,8 @@ button {
   font-size: 0.875rem;
   line-height: 0;
 }
+
+/* Form Styles End */
 
 /* Media Queries */
 
