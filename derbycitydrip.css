@@ -38,12 +38,12 @@ h3,
 h4,
 .nav__item {
   font-family: "Quantico", sans-serif;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: 900;
   line-height: 1.2;
 }
 
@@ -98,6 +98,10 @@ header {
   text-transform: uppercase;
 }
 
+.nav__link:hover {
+  opacity: 0.75;
+}
+
 /*
 .nav__link--button {
   background: #fff;
@@ -106,11 +110,6 @@ header {
   border-radius: 10em;
 }
 */
-
-.nav__link:hover {
-  opacity: 0.75;
-}
-
 
 /* Navigation Styles End */
 
@@ -136,6 +135,25 @@ header {
 }
 
 /* Hero Styles End */
+
+/* Button Styles */
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424a;
+  background-color: #45230f;
+  color: #fff;
+  padding: 0.75em 2em;
+  border-radius: 10px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+/* Button Style End */
 
 .row {
   /* display: flex => flex container */
