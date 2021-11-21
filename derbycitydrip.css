@@ -28,6 +28,15 @@ body {
   color: #333;
 }
 
+h1,
+h2,
+h3,
+h4,
+.nav__item {
+  font-family: "Quantico", sans-serif;
+  text-transform: uppercase;
+}
+
 .container {
   width: 80%;
   max-width: 1100px;
