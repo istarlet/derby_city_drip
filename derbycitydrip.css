@@ -93,6 +93,7 @@ header {
 }
 
 .nav__link {
+  font-size: 1.25rem;
   color: #45230f;
   text-decoration: none;
   text-transform: uppercase;
