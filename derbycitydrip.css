@@ -129,18 +129,20 @@ header {
 }
 
 .hero {
-  padding: 100px 0;
+  padding: 3em 0;
   background-color: #d8ebf0;
   color: #45230f;
 }
 
 .hero__text {
-  width: 62%;
+  width: 48%;
 }
 
 .hero__img {
-  width: 32%;
+  width: 50%;
+  /*
   align-self: flex-start;
+  */
 }
 
 .hero p {
