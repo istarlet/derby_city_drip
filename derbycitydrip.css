@@ -187,13 +187,6 @@ header {
 */
 
 /* Menu Item Styles */
-/*
-.derby-city {
-  max-width: 1100px;
-  margin: auto;
-  padding: 2em;
-}
-*/
 
 .coffee-grid {
   display: grid;
@@ -224,6 +217,8 @@ header {
   grid-template-columns: 1fr auto;
 }
 
+/* Menu Item Styles End */
+
 button {
   border: none;
   display: inline-block;
@@ -247,7 +242,7 @@ button {
   .hero__text {
     width: 100%;
   }
-  
+
   .hero__img {
     width: 100%;
   }
