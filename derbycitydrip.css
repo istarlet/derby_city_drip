@@ -1,3 +1,19 @@
+/* Color Codes */
+.color-codes {
+  color: #091b21;
+  color: #233237;
+  color: #204d48;
+  color: #d5e2e2;
+  color: #45230f;
+  color: #b98957;
+  color: #a6592f;
+  color: #f2b129;
+  color: #f2f2f2;
+  color: #222222;
+}
+/* Color Codes */
+
+
 /* Generic Styles */
 
 @import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
@@ -21,7 +37,7 @@ body {
 /* Navigation Styles */
 
 header {
-  background: #d8ebf0;
+  background: #d5e2e2;
   padding: 2em 0;
 }
 
@@ -31,7 +47,6 @@ header {
 
 .nav {
   display: flex;
-  justify-content: space-around;
 }
 
 .nav__list {
@@ -52,12 +67,14 @@ header {
   text-transform: uppercase;
 }
 
+/*
 .nav__link--button {
   background: #fff;
   color: #136c72;
   padding: 0.25em 1em;
   border-radius: 10em;
 }
+*/
 
 .nav__link:hover {
   opacity: 0.75;
@@ -70,7 +87,7 @@ header {
 
 .hero {
   padding: 100px 0;
-  background-color: #d8ebf0;
+  background-color: #d5e2e2;
   color: #45230f;
 }
 
