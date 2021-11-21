@@ -28,6 +28,7 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.4;
   color: #333;
+  margin: 0;
 }
 
 img {
@@ -130,6 +131,10 @@ header {
 
 .hero__img {
   width: 50%;
+}
+
+.hero p {
+  margin-bottom: 2em;
 }
 
 .flex-container {
