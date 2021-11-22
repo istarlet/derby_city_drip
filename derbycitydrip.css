@@ -50,6 +50,10 @@ h1 {
   line-height: 1.2;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 h3 {
   font-size: 1.5rem;
   color: #45230F;
