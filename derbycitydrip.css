@@ -326,6 +326,13 @@ button {
 
 /* Form Styles End */
 
+/* Footer Styles */
+
+.sitemap__container {
+  background: #233237;
+  color: #fff;
+}
+
 .footer__container {
   background: #091b21;
   color: #fff;
