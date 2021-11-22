@@ -96,7 +96,7 @@ header {
 }
 
 .nav__item {
-  margin-right: 1em;
+  margin-left: 2rem;
 }
 
 .nav__link {
@@ -104,6 +104,7 @@ header {
   color: #45230f;
   text-decoration: none;
   text-transform: uppercase;
+  
 }
 
 .nav__link:hover {
@@ -172,9 +173,6 @@ header {
   /* display: flex => flex container */
   display: flex;
   justify-content: space-between;
-
-  /* can't use yet */
-  /* gap: 100px; */
 }
 
 
