@@ -326,6 +326,38 @@ button {
 
 /* Form Styles End */
 
+footer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "copyright"
+    "privacy";
+  gap: 1.6rem;
+}
+
+#copyright {
+  grid-area: copyright;
+}
+
+#privacy-policy {
+  grid-area: privacy;
+}
+
+
+
+.footer__info {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Footer Styles */
+
+
+
 /* Media Queries */
 
 @media screen and (max-width: 630px) {
@@ -361,6 +393,18 @@ button {
     grid-template-areas:
       "name email"
       "button button";
+  }
+} 
+
+@media screen and (min-width: 530px) {
+  footer {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "copyright privacy";
+
+  }
+  .footer__info {
+    justify-content: space-between;
   }
 } 
 
