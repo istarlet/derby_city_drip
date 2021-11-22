@@ -326,13 +326,21 @@ button {
 
 /* Form Styles End */
 
-footer {
+.footer__container {
+  background: #091b21;
+  color: #fff;
+}
+
+.footer__grid {
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-areas:
     "copyright"
     "privacy";
-  gap: 1.6rem;
+}
+
+footer p {
+  color: #fff;
 }
 
 #copyright {
@@ -343,11 +351,9 @@ footer {
   grid-area: privacy;
 }
 
-
-
 .footer__info {
-  margin: 0;
-  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
