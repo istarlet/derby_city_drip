@@ -424,8 +424,6 @@ p a {
   justify-content: center;
 }
 
-
-
 /* Footer Styles */
 
 
@@ -490,6 +488,10 @@ p a {
   .footer__info {
     justify-content: space-between;
   } 
+
+  .sitemap__container {
+    display: block;
+  }
 } 
 
 /* Media Queries End */
