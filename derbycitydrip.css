@@ -181,7 +181,7 @@ header {
   padding: 3em 0;
   background-image: url("images/coffee-beans-bg.jpg");
   background-attachment: none;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -407,9 +407,6 @@ p a {
   .coffee-grid {
     grid-template-rows: repeat(14, 1fr);
   }
-}
-
-@media screen and (max-width: 630px) {
   .tea-grid,
   .pastry-grid {
     grid-template-rows: repeat(4, 1fr);
