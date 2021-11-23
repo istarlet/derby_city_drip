@@ -277,8 +277,10 @@ button {
   background-color: #a6592f;
   color: #ffffff;
   font-family: "Quantico", sans-serif;
-  font-weight: 600;
+  font-weight: 900;
+  /*
   font-size: 0.9em;
+  */
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -299,10 +301,6 @@ form {
 
 #email-block {
   grid-area: email;
-}
-
-#message-block {
-  grid-area: message;
 }
 
 button {
