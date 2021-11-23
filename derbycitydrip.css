@@ -139,7 +139,6 @@ header {
 }
 
 .flex-container {
-  /* display: flex => flex container */
   display: flex;
 }
 
@@ -166,23 +165,14 @@ header {
 /* Button Style End */
 
 .row {
-  /* display: flex => flex container */
   display: flex;
   justify-content: space-between;
 }
 
 
 .col {
-  /* these are now flex items */
   width: 100%;
 }
-
-/*
-.header {
-  min-height: 100vh;
-  padding: 4em;
-}
-*/
 
 /* Finely Roasted Section Styles */
 
