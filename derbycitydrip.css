@@ -411,11 +411,7 @@ p a {
     flex-wrap: wrap;  
   }
 
-  .hero__text {
-    width: 100%;
-  }
-
-  .hero__img {
+  .hero__text, .hero__img {
     width: 100%;
   }
 }
@@ -447,14 +443,11 @@ p a {
     grid-template-columns: 1fr auto;
     grid-template-areas:
       "copyright privacy";
-
   }
 
-  
   .footer__info {
     justify-content: space-between;
-  }
-  
+  } 
 } 
 
 /* Media Queries End */
