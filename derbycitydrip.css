@@ -116,15 +116,6 @@ header {
   opacity: 0.75;
 }
 
-/*
-.nav__link--button {
-  background: #fff;
-  color: #136c72;
-  padding: 0.25em 1em;
-  border-radius: 10em;
-}
-*/
-
 /* Navigation Styles End */
 
 /* Hero Styles */
@@ -411,8 +402,16 @@ p a {
     flex-wrap: wrap;  
   }
 
-  .hero__text, .hero__img {
+  .hero__text, .hero__img, .btn {
     width: 100%;
+  }
+
+  .hero__text a {
+    text-align: center;
+  }
+
+  .hero__img {
+    margin-top: 3em;
   }
 }
 
