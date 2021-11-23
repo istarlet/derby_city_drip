@@ -459,6 +459,10 @@ p a {
       width: 100%
   }
 
+  .row {
+    flex-direction: column;
+  }
+
   .coffee-grid {
     grid-template-rows: repeat(14, 1fr);
   }
@@ -489,9 +493,6 @@ p a {
     justify-content: space-between;
   } 
 
-  .sitemap__container {
-    display: block;
-  }
 } 
 
 /* Media Queries End */
