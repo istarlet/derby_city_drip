@@ -140,6 +140,7 @@ header {
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap; 
 }
 
 /* Hero Styles End */
@@ -386,10 +387,6 @@ p a {
 /* Media Queries */
 
 @media screen and (max-width: 630px) {
-  .flex-container {
-    flex-wrap: wrap;  
-  }
-
   .hero__text, .hero__img, .btn {
     width: 100%;
   }
