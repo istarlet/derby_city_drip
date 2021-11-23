@@ -77,6 +77,18 @@ p {
   margin: 0 auto;
 }
 
+.row, .flex-container, .location-flex {
+  display: flex;
+}
+
+.row {
+  justify-content: space-between;
+}
+
+.col {
+  width: 100%;
+}
+
 /* Navigation Styles */
 
 header {
@@ -139,7 +151,6 @@ header {
 }
 
 .flex-container {
-  display: flex;
   flex-wrap: wrap; 
 }
 
@@ -165,16 +176,6 @@ header {
 }
 /* Button Style End */
 
-.row {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.col {
-  width: 100%;
-}
-
 /* Finely Roasted Section Styles */
 
 .finely-roasted {
@@ -191,6 +192,38 @@ header {
 }
 
 /* Finely Roasted Section Styles End */
+
+/* Location Section Styles */
+.location-grid {
+  display: grid;
+
+  grid-template-areas:
+    "location location hours"
+    "map map hours";
+  
+  gap: 0px;
+}
+
+#location {
+  background-color: #e65b9d;
+  grid-area: location;
+}
+
+#map {
+  background-color: #9979c9;
+  grid-area: map;
+}
+
+#hours {
+  background-color: #d568ab;
+  grid-area: hours;
+}
+
+.location-grid > div img {
+  max-width: 100%;
+}
+
+/* Location Section Styles End */
 
 
 /* Menu Item Styles */
@@ -401,9 +434,21 @@ p a {
 }
 
 @media screen and (max-width: 630px) {
+    .angry-grid {
+      grid-template-areas:
+        "location location"
+        "map map"
+        "hours hours";
+  
+  }
+    #hours {
+      width: 100%
+  }
+
   .coffee-grid {
     grid-template-rows: repeat(14, 1fr);
   }
+
   .tea-grid,
   .pastry-grid {
     grid-template-rows: repeat(4, 1fr);
