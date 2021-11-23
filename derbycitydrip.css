@@ -77,7 +77,9 @@ p {
   margin: 0 auto;
 }
 
-.row, .flex-container, .location-flex {
+.row, 
+.flex-container, 
+.location__flex {
   display: flex;
 }
 
@@ -194,32 +196,43 @@ header {
 /* Finely Roasted Section Styles End */
 
 /* Location Section Styles */
-.location-grid {
+.location__container {
+  background-color: #204d48;
+  color: #fff;
+  padding: 3em 0;
+}
+
+.location__container h3 {
+  color: #fff;
+}
+
+.location__container p {
+  color: #fff;
+}
+
+.location__grid {
   display: grid;
 
   grid-template-areas:
     "location location hours"
     "map map hours";
   
-  gap: 0px;
+  gap: 1em;
 }
 
 #location {
-  background-color: #e65b9d;
   grid-area: location;
 }
 
 #map {
-  background-color: #9979c9;
   grid-area: map;
 }
 
 #hours {
-  background-color: #d568ab;
   grid-area: hours;
 }
 
-.location-grid > div img {
+.location__grid > div img {
   max-width: 100%;
 }
 
@@ -434,12 +447,15 @@ p a {
 }
 
 @media screen and (max-width: 630px) {
-    .angry-grid {
+    .location__grid {
       grid-template-areas:
-        "location location"
-        "map map"
-        "hours hours";
+        "location"
+        "map"
+        "hours";
   
+  }
+  .location__flex {
+    flex-wrap: wrap;
   }
     #hours {
       width: 100%
