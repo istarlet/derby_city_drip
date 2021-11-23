@@ -273,7 +273,7 @@ button {
   display: inline-block;
   padding: 0.75rem 2.25rem;
   border: 1px solid #a6592f;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #a6592f;
   color: #ffffff;
   font-family: "Quantico", sans-serif;
