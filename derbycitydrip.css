@@ -352,16 +352,11 @@ button {
   background-color: #91999b;
   color: #233237;
   margin: 0 5px;
+  font-size: 1.5rem;
   text-decoration: none;
-
   display: inline-flex;
   justify-content: center;
-  align-items: center;
-  
-}
-
-.fa {
-  font-size: 5rem;
+  align-items: center; 
 }
 
 .footer__container {
@@ -454,9 +449,12 @@ p a {
       "copyright privacy";
 
   }
+
+  
   .footer__info {
     justify-content: space-between;
   }
+  
 } 
 
 /* Media Queries End */
