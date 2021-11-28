@@ -437,6 +437,69 @@ p a {
 
 /* Footer Styles */
 
+.nav-toggle {
+  cursor: pointer;
+  border: 0;
+  width: 3rem;
+  height: 3rem;
+  padding: 0em;
+  border-radius: 50%;
+  background: #072a2d;
+  color: white;
+  transition: opacity 250ms ease;
+
+  position: absolute;
+  left: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+  opacity: 0.75;
+}
+
+.hamburger {
+  width: 50%;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  margin: 0 auto;
+  height: 3px;
+  background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  width: 100%;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
+}
+
+/* made changes here from video
+   to make it more accessible.
+   
+   Works the same :) */
+.nav {
+  visibility: hidden;
+  height: 0;
+  position: absolute;
+}
+
+.nav--visible {
+  visibility: visible;
+  height: auto;
+  position: relative;
+}
 
 
 /* Media Queries */
@@ -504,6 +567,7 @@ p a {
 
 } 
 
+/*
 @media (min-width: 800px) {
   .nav-toggle {
     display: none;
@@ -515,5 +579,6 @@ p a {
     height: auto;
   }
 }
+*/
 
 /* Media Queries End */
