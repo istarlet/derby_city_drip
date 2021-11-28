@@ -100,13 +100,18 @@ header {
   padding: 2em 0;
 }
 
+/*
 .logo {
   margin-right: 1em;
 }
+*/
 
-.nav {
+/*
+.nav__wrap {
   display: flex;
+  justify-content: space-between;
 }
+*/
 
 .nav__list {
   margin: 0;
@@ -114,7 +119,7 @@ header {
   list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center;
+  
 }
 
 .nav__item {
@@ -125,13 +130,13 @@ header {
   font-size: 1.25rem;
   color: #45230f;
   text-decoration: none;
-  text-transform: uppercase;
-  
+  text-transform: uppercase; 
 }
 
 .nav__link:hover {
   opacity: 0.75;
 }
+
 
 /* Navigation Styles End */
 
@@ -271,7 +276,6 @@ header {
 .tea-item,
 .pastry-item,
 .coffee-item {
-  margin-left: 1.5em;
   display: grid;
   grid-template-columns: 1fr auto;
 }
