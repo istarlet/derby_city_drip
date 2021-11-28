@@ -45,6 +45,7 @@ h4,
   font-family: "Quantico", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 h1 {
@@ -76,7 +77,6 @@ p {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 3em 0;
 }
 
 .row, 
@@ -113,6 +113,7 @@ header {
   padding: 0;
   list-style: none;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -137,9 +138,9 @@ header {
 /* Hero Styles */
 
 .hero {
-  padding: 3em 0;
   background-color: #d5e2e2;
   color: #45230f;
+  padding: 2em 0;
 }
 
 .hero__text {
@@ -156,6 +157,8 @@ header {
 
 .flex-container {
   flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
 }
 
 /* Hero Styles End */
@@ -188,6 +191,7 @@ header {
   background-attachment: none;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 2em 0;
 }
 
 .finely-roasted p {
@@ -201,6 +205,7 @@ header {
   background-color: #204d48;
   color: #fff;
   padding: 3em 0;
+  margin: auto;
 }
 
 .location__container h3 {
@@ -486,9 +491,7 @@ p a {
       "name email"
       "button button";
   }
-} 
 
-@media screen and (min-width: 530px) {
   footer {
     grid-template-columns: 1fr auto;
     grid-template-areas:
@@ -500,5 +503,17 @@ p a {
   } 
 
 } 
+
+@media (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    visibility: visible;
+    display: flex;
+    height: auto;
+  }
+}
 
 /* Media Queries End */
