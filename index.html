@@ -7,26 +7,36 @@
   <title>Derby City Drip Coffee</title>
   <link rel="stylesheet" href="derbycitydrip.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
 </head>
 <body>
   
  <!-- Navigation Section 
 ---------------------------------------->
+
 <header>
-  <div class="container row">
+  <section class="nav-container row">
+ 
+    <button class="nav-toggle" aria-label="open navigation">
+      <span class="hamburger"></span>
+    </button>
+   
     <a href="#">
-      <img src="images/logos/derbycitydrip-logo.svg" alt="derby city drip" class="logo" />
+      <img src="images/logos/derbycitydrip-logo.svg" alt="derby city drip" class="" />
     </a>
+  
     <nav class="nav">
     <ul class="nav__list">
       <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-      <li class="nav__item"><a href="#dcd" class="nav__link">Location</a></li>
+      <li class="nav__item"><a href="#dcd-location" class="nav__link">Location</a></li>
       <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
       <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
     </ul>
   </nav>
-  </div>
+  </section>
 </header>
+
+<main>
 
 <!-- Hero Section 
 ---------------------------------------->
@@ -55,232 +65,247 @@
 ---------------------------------------->
 
 <section class="location__container">
-<div class="container">
-  <div class="location__grid">
-    <a id="dcd-location"></a>
-
-    <div id="location">
-      <div class="location__flex">
-
-        <div class="col">
-          <h3 id="dcd">Location</h3>
-          <p>1234 W. Main St.</p>
-          <p>Louisville, KY 40213</p>
-        </div> 
-
-        <div class="col">
-          <h3>Contact</h3>
-          <p>P: 502-555-5555</p>
-          <p>E: hello@derbycitydrip.com</p>
-        </div> 
+  <div class="container">
+    <div class="location__grid">
+      <a id="dcd-location"></a>
+  
+      <div id="location">
+        <div class="location__flex">
+          <div class="col">
+            <h3 id="dcd">Location</h3>
+            <p>1234 W. Main St.</p>
+            <p>Louisville, KY 40213</p>
+          </div> 
+  
+          <div class="col">
+            <h3>Contact</h3>
+            <p>P: 502-555-5555</p>
+            <p>E: hello@derbycitydrip.com</p>
+          </div> 
+        </div>
+        <div id="map">
+          <img src="https://images.unsplash.com/photo-1584972191378-d70853fc47fc?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNzY0OTQ0NA&ixlib=rb-1.2.1&q=85" />
+        </div>
       </div>
-      <div id="map">
-        <img src="https://images.unsplash.com/photo-1584972191378-d70853fc47fc?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNzY0OTQ0NA&ixlib=rb-1.2.1&q=85" />
-      </div>
-    </div>
-    
-      <div id="hours">
-        <h3>Hours</h3>
-        <p>These are our current hours, unforeseen circumstances may cause these to change.</p>
-        <table>
-          <tbody>
-          <tr>
-          <td>Sun:</td>
-          <td>Closed</td>
-          </tr>
-          <tr>
-          <td>Mon:</td>
-          <td>6am - 10pm</td>
-          </tr>
-          <tr>
-          <td>Tue:</td>
-          <td>6am - 10pm</td>
-          </tr>
-          <tr>
-          <td>Wed:</td>
-          <td>6am - 10pm</td>
-          </tr>
-          <tr>
-          <td>Thu:</td>
-          <td>6am - 10pm</td>
-          </tr>
-          <tr>
-          <td>Fri:</td>
-          <td>6am - 12pm</td>
-          </tr>
+      
+        <div id="hours">
+          <h3>Hours</h3>
+          <p>These are our current hours, unforeseen circumstances may cause these to change.</p>
+          <table>
+            <tbody>
             <tr>
-          <td>Sat:</td>
-          <td>6am - 12pm</td>
-          </tr>
-          </tbody>
-          </table>
-      </div>
-   </div>
-  </div> 
-</section> 
+            <td>Sun:</td>
+            <td>Closed</td>
+            </tr>
+            <tr>
+            <td>Mon:</td>
+            <td>6am - 10pm</td>
+            </tr>
+            <tr>
+            <td>Tue:</td>
+            <td>6am - 10pm</td>
+            </tr>
+            <tr>
+            <td>Wed:</td>
+            <td>6am - 10pm</td>
+            </tr>
+            <tr>
+            <td>Thu:</td>
+            <td>6am - 10pm</td>
+            </tr>
+            <tr>
+            <td>Fri:</td>
+            <td>6am - 12pm</td>
+            </tr>
+              <tr>
+            <td>Sat:</td>
+            <td>6am - 12pm</td>
+            </tr>
+            </tbody>
+            </table>
+        </div>
+     </div>
+    </div> 
+  </section> 
 
 <!-- Coffees Header Section 
 ---------------------------------------->
-<section class="row">
-  <div class="container">
+<section class="menu_container">
+  <div class="container item__container">
     <h2 id="menu">Coffees</h2>
     <p>Flavour sit brewed ui roast americano mocha single shot affogato. Aged, steamed roast white saucer aroma decaffeinated. Caramelization skinny brewed, foam extra eu latte cream grounds go plunger pot.</p>
   </div>
-</section>
+
 
 <!-- Coffee Menu Items Section 
 ---------------------------------------->
-<section class="container">
+<div class="container">
   <div class="coffee-grid">
-    <div class="menu-item">
+    <div class="">
       <div class="coffee-item">
         <h3>Coffee of the Day</h3>
         <h3>4.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
-      </div>
     </div>
-    <div class="menu-item">
+
+    <div class="">
       <div class="coffee-item">
         <h3>Cafe Au Lait</h3>
         <h3>3.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+   
+    <div class="">
       <div class="coffee-item">
         <h3>Red Eye</h3>
         <h3>6.99</h3>
+      </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+
+    <div class="">
       <div class="coffee-item">
         <h3>Cold Brew Iced</h3>
         <h3>4.99</h3>
+      </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="coffee-item">
         <h3>Fair Trade Mocha</h3>
         <h3>4.99</h3>
+      </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="coffee-item">
         <h3>Beekeeper</h3>
         <h3>4.99</h3>
-        <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
+        <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
     </div>
-    <div class="menu-item">
+    <div class="">
       <div class="coffee-item">
         <h3>Mocha</h3>
         <h3>3.99</h3>
+      </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="coffee-item">
         <h3>Espresso</h3>
         <h3>4.99</h3>
+      </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="coffee-item">
         <h3>Americano</h3>
         <h3>3.99</h3>
+      </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+  
+    <div class="">
       <div class="coffee-item">
         <h3>Macchiato</h3>
         <h3>4.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
-      </div>
+    
     </div>
-    <div class="menu-item">
+    <div class="">
       <div class="coffee-item">
         <h3>Con Panna</h3>
         <h3>3.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="coffee-item">
         <h3>Cappuccino</h3>
         <h3>4.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="coffee-item">
         <h3>Latte</h3>
         <h3>4.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="coffee-item">
         <h3>Hot Chocolate</h3>
         <h3>2.99</h3>
-        <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
+        <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
     </div>
+  </div>
   </div>
 </section>
 
 <!-- Teas Header Section 
 ---------------------------------------->
-<section class="row">
-  <div class="container">
+<section class="menu__container">
+  <div class="container item__container">
     <h2 class="section-title">Teas</h2>
     <p>Flavour sit brewed ui roast americano mocha single shot affogato. Aged, steamed roast white saucer aroma decaffeinated. Caramelization skinny brewed, foam extra eu latte cream grounds go plunger pot.</p>
   </div>
-</section>
+
 
 <!-- Tea Menu Items Section 
 ---------------------------------------->
 <section class="container">
   <div class="tea-grid">
-    <div class="menu-item">
+    <div class="">
       <div class="tea-item">
         <h3>Loose-Leaf Tea</h3>
         <h3>4.99</h3>
+      </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="tea-item">
         <h3>Tea Au Lait</h3>
-        <h3>3.99</h3>
+        <h3>3.99</h3></div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="tea-item">
         <h3>Iced</h3>
         <h3>4.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="tea-item">
         <h3>Matcha Latte</h3>
         <h3>3.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
-      </div>
+    
     </div>
   </div>
 </section>
 
 <!-- Pastries/Snacks Header Section 
 ---------------------------------------->
-<section class="row">
-  <div class="container">
+<section class="menu__container">
+  <div class="container item__container">
     <h2 class="section-title">Pastries / Snacks</h2>
     <p>Flavour sit brewed ui roast americano mocha single shot affogato. Aged, steamed roast white saucer aroma decaffeinated. Caramelization skinny brewed, foam extra eu latte cream grounds go plunger pot.</p>
   </div>
@@ -290,33 +315,37 @@
 ---------------------------------------->
 <section class="container">
   <div class="pastry-grid">
-    <div class="menu-item">
+    <div class="">
       <div class="pastry-item">
         <h3>Donut</h3>
         <h3>1.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="pastry-item">
         <h3>Cookie - 3 Pack</h3>
         <h3>3.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+    
+    <div class="">
       <div class="pastry-item">
         <h3>Scone</h3>
         <h3>2.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
       </div>
-    </div>
-    <div class="menu-item">
+  
+    <div class="">
       <div class="pastry-item">
         <h3>Brownie</h3>
         <h3>2.99</h3>
+        </div>
         <p>Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.</p>
-      </div>
+    
     </div>
   </div>
 </section>
@@ -324,9 +353,10 @@
 <!-- Derby City Drip Signup Section 
 ---------------------------------------->
 <section class="dcd-signup">
-<div class="container">
-  <h2 id="contact">Join the DCD Coffee Club</h2>
-  <p>Steamed roast white saucer aroma decaffeinated. Carmelization skinny brewed, foam extra eu latte cream grounds go to plunger pot.</p>
+  <div class="container">
+    <h2 id="contact">Join the DCD Coffee Club</h2>
+    <p>Steamed roast white saucer aroma decaffeinated. Carmelization skinny brewed, foam extra eu latte cream grounds go to plunger pot.
+    </p>
 
   <!-- DCD Form Section 
 ---------------------------------------->
@@ -355,12 +385,12 @@
 
 </main>
 
-<!-- Footer Section 
+<!-- Sitemap Section 
 ---------------------------------------->
 
 <section class="sitemap__container">
-  <div class="container row col">
-    <div class="">
+  <div class="container sitemap__grid">
+    <div class="sitemap-location">
       <h4>Location</h4>
       <p>1234 W. Main St.</p>
       <p>Louisville, KY 40213</p>
@@ -368,14 +398,14 @@
       <p>P: 502-555-5555</p>
       <p>E: hello@derbycitydrip.com</p>
     </div>
-    <div class="">
+    <div class="sitemap">
       <h4>Sitemap</h4>
       <p><a href="#">Home</a></p>
       <p><a href="#">Location</a></p>
       <p><a href="#">Menu</a></p>
       <p><a href="#">Contact</a></p>
     </div>
-    <div class="">
+    <div class="social">
       <h4>Socials</h4>
       <p>Please join us for all the latest announcements via our socials</p>
       <div class="">
@@ -393,6 +423,9 @@
   </div>
 </section>
 
+<!-- Footer Section 
+---------------------------------------->
+
 <footer class="footer__container">
   <div class="container__footer">
   <div class="footer__grid">
@@ -404,6 +437,7 @@
   </div>
   </div>
 </footer>
+
 
 <!-- Footer Section End
 ---------------------------------------->
