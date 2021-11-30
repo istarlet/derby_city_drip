@@ -458,6 +458,27 @@ button {
   color: #fff;
 }
 
+.sitemap__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  grid-template-areas:
+    "sitemap-location"
+    "sitemap"
+    "social";
+}
+
+#sitemap-location {
+  grid-area: sitemap-location;
+}
+
+#sitemap {
+  grid-area: sitemap;
+}
+
+#social {
+  grid-area: social;
+}
+
 .wrapper {
   padding: 60px;
 }
@@ -577,6 +598,13 @@ p a {
     grid-template-areas:
       "name email"
       "button button";
+  }
+
+  .sitemap__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "sitemap-location sitemap social";
   }
 
   footer {
