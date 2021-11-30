@@ -95,6 +95,7 @@ p {
 
 /* Navigation Styles */
 
+
 header {
   background: #d5e2e2;
   padding: 2em 0;
@@ -136,7 +137,6 @@ header {
 .nav__link:hover {
   opacity: 0.75;
 }
-
 
 /* Navigation Styles End */
 
@@ -510,3 +510,6 @@ p a {
 } 
 
 /* Media Queries End */
+
+
+
