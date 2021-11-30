@@ -355,12 +355,6 @@ header {
   gap: 2.5em 4em;
 }
 
-/*
-.menu-item {
-  display: flex;
-}
-*/
-
 .tea-item,
 .pastry-item,
 .coffee-item {
