@@ -96,46 +96,122 @@ p {
 /* Navigation Styles */
 
 
+.nav-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* added for nav-toggle positioning */
+  position: relative;
+}
+
 header {
-  background: #d5e2e2;
-  padding: 2em 0;
+  background-color: #fff;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
 }
 
-/*
-.logo {
-  margin-right: 1em;
+.nav {
+  width: 100%;
 }
-*/
 
-/*
-.nav__wrap {
-  display: flex;
-  justify-content: space-between;
+.nav-toggle {
+  cursor: pointer;
+  border: 0;
+  width: 3rem;
+  height: 3rem;
+  padding: 0em;
+  border-radius: 50%;
+  background: black;
+  color: white;
+  transition: opacity 250ms ease;
+
+  position: absolute;
+  left: 0;
 }
-*/
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+  opacity: 0.75;
+}
+
+.hamburger {
+  width: 50%;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  margin: 0 auto;
+  height: 3px;
+  background: teal;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  width: 100%;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
+}
+
+.nav {
+  visibility: hidden;
+  height: 0;
+  position: absolute;
+  font-size: 1rem;
+}
+
+.nav--visible {
+  visibility: visible;
+  height: auto;
+  position: relative;
+}
 
 .nav__list {
-  margin: 0;
-  padding: 0;
+  margin-top: .75rem;
+  padding: 1rem;
   list-style: none;
-  display: flex;
-  justify-content: center;
-  
+  background: #204d48;
+}
+
+.nav__list--primary {
+  margin-bottom: 2em;
 }
 
 .nav__item {
-  margin-left: 2rem;
-}
+  margin-top: .75rem;
+  }
 
 .nav__link {
-  font-size: 1.25rem;
-  color: #45230f;
+  color: #fff;
+  font-family: "Quantico", sans-serif;
+  text-transform: uppercase;
   text-decoration: none;
-  text-transform: uppercase; 
 }
 
-.nav__link:hover {
-  opacity: 0.75;
+.nav__link:hover,
+.nav__link:focus {
+  opacity: .65;
+}
+
+.nav__link--button {
+  padding: .25em .75em;
+  background: #fff;
+  color: #23424a;
+  border-radius: 100px;
+}
+
+.logo {
+  height: 30px;
 }
 
 /* Navigation Styles End */
