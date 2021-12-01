@@ -440,6 +440,8 @@ form {
 .sitemap__container {
   background: #233237;
   color: #fff;
+  padding: 3em 0;
+  font-size: 1rem;
 }
 
 .sitemap__container p {
@@ -453,6 +455,7 @@ form {
     "sitemap-location"
     "sitemap"
     "social";
+
 }
 
 #sitemap-location {
