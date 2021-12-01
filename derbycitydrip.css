@@ -212,6 +212,7 @@ header {
 
 .hero__img {
   width: 50%;
+  padding-top: 2em;
 }
 
 .hero p {
@@ -539,17 +540,16 @@ p a {
 /* Media Queries */
 
 @media screen and (max-width: 630px) {
-  .hero__text, .hero__img, .btn {
+ 
+.hero__text, .hero__img, .btn {
     width: 100%;
   }
 
-  .hero__text a {
-    text-align: center;
+.hero__text a {
+  text-align: center;
   }
 
-  .hero__img {
-    margin-top: 3em;
-  }
+ 
 }
 
 @media screen and (max-width: 630px) {
