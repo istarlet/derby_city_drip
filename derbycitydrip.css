@@ -281,16 +281,22 @@ header {
 
 .location__grid {
   display: grid;
-
+  grid-template-columns: 1fr;
   grid-template-areas:
-    "location location hours"
-    "map map hours";
+    "location" 
+    "phone"
+    "map"
+    "hours";
   
   gap: 1em;
 }
 
 #location {
   grid-area: location;
+}
+
+#phone {
+  grid-area: phone;
 }
 
 #map {
@@ -544,19 +550,7 @@ p a {
 }
 
 @media screen and (max-width: 630px) {
-    .location__grid {
-      grid-template-areas:
-        "location"
-        "map"
-        "hours";
-  
-  }
-  .location__flex {
-    flex-wrap: wrap;
-  }
-    #hours {
-      width: 100%
-  }
+
 
   /*
   .row {
@@ -575,6 +569,23 @@ p a {
 }
 
 @media screen and (min-width: 530px) {
+  .location__grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "location phone hours"
+      "map map hours";
+
+    gap: 1em;
+
+}
+
+.location__flex {
+  flex-wrap: wrap;
+}
+  #hours {
+    width: 100%
+}
+
   form {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
