@@ -289,7 +289,7 @@ header {
     "map"
     "hours";
   
-  gap: 1em;
+  gap: 2em;
 }
 
 #location {
@@ -456,7 +456,7 @@ form {
     "sitemap-location"
     "sitemap"
     "social";
-
+gap: 2.5em;
 }
 
 #sitemap-location {
@@ -570,7 +570,7 @@ p a {
       "location phone hours"
       "map map hours";
 
-    gap: 1em;
+    gap: 2em;
 
 }
 
@@ -597,6 +597,7 @@ p a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       "sitemap-location sitemap social";
+
   }
 
   footer {
