@@ -248,16 +248,16 @@ header {
 
 /* Finely Roasted Section Styles */
 
-.finely-roasted {
+.finely__container {
   color: white;
   background-image: url("images/coffee-beans-bg.jpg");
   background-attachment: none;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 2em 0;
+  padding: 3em 0;
 }
 
-.finely-roasted p {
+.finely__container p {
   color: #fff;
 }
 
@@ -317,7 +317,7 @@ header {
 /* Menu Item Styles */
 
 .menu__container {
-  padding: 2em o;
+  padding: 3em o;
 }
 
 .item__container {
@@ -354,12 +354,13 @@ header {
 
 /* Form Styles */
 
-.dcd-signup {
+.signup__container {
   background-color: #204d48;
   color: #fff;
+  padding: 3em 0;
 }
 
-.dcd-signup p {
+.signup__container p {
   color: #fff;
 }
 
@@ -394,7 +395,7 @@ textarea {
   color: #333;
 }
 
-button {
+.signup__button {
   border: none;
   display: inline-block;
   padding: 0.75em 2.25em;
