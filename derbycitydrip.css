@@ -187,7 +187,7 @@ header {
 
 .nav__item:hover,
 .nav__item:focus {
-  background: teal;
+  background:#b98957;
   width: 100%;
 }
 
