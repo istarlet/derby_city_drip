@@ -406,7 +406,7 @@ textarea {
   color: #ffffff;
   font-family: "Quantico", sans-serif;
   font-weight: 900;
-  font-size: .9em;
+  font-size: .7em;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -429,7 +429,7 @@ form {
   grid-area: email;
 }
 
-button {
+#button {
   grid-area: button;
 }
 
@@ -550,20 +550,12 @@ p a {
 }
 
 @media screen and (max-width: 630px) {
-
-
-  /*
-  .row {
-    display: block;
-  }
-  */
-
-  .coffee-grid {
+.coffee-grid {
     grid-template-rows: repeat(14, 1fr);
-  }
+}
 
-  .tea-grid,
-  .pastry-grid {
+.tea-grid,
+.pastry-grid {
     grid-template-rows: repeat(4, 1fr);
   }
 }
@@ -592,6 +584,10 @@ p a {
       "name email"
       "button button";
   }
+
+.signup__button {
+  font-size: .9em;
+   }
 
   .sitemap__grid {
     display: grid;
