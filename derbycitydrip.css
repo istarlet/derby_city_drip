@@ -113,8 +113,8 @@ header {
 .nav-toggle {
   cursor: pointer;
   border: 0;
-  width: 3rem;
-  height: 3rem;
+  width: 3em;
+  height: 3em;
   padding: 0em;
   background: #072a2d;
   color: white;
@@ -160,7 +160,7 @@ header {
   visibility: hidden;
   height: 0;
   position: absolute;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .nav--visible {
@@ -377,9 +377,9 @@ header {
 
 
 form {
-  max-width: 40rem;
+  max-width: 40em;
   margin: auto;
-  padding: 2rem;
+  padding: 2em 0;
 }
 
 label {
@@ -388,8 +388,8 @@ label {
 
 input,
 textarea {
-  margin-top: 0.3rem;
-  padding: 0.6rem;
+  margin-top: 0.3em;
+  padding: 0.6em;
   border: solid 1px #bbb;
   border-radius: 5px;
   width: 100%;
@@ -407,7 +407,7 @@ textarea {
   color: #ffffff;
   font-family: "Quantico", sans-serif;
   font-weight: 900;
-  font-size: .7em;
+  font-size: .9em;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -419,7 +419,7 @@ form {
     "name"
     "email"
     "button";
-  gap: 1.6rem;
+  gap: 1em;
 }
 
 #name-block {
@@ -586,10 +586,11 @@ p a {
     grid-template-areas:
       "name email"
       "button button";
+      gap: 1em;
   }
 
 .signup__button {
-  font-size: .9em;
+  font-size: .9rem;
    }
 
   .sitemap__grid {
