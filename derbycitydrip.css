@@ -370,9 +370,10 @@ header {
   margin: 0 auto;
 }
 
-.intro-content {
+.signup__mobile--width {
   width: 100%;
 }
+
 
 form {
   max-width: 40rem;
@@ -405,9 +406,7 @@ textarea {
   color: #ffffff;
   font-family: "Quantico", sans-serif;
   font-weight: 900;
-  /*
-  font-size: 0.9em;
-  */
+  font-size: .9em;
   text-transform: uppercase;
   cursor: pointer;
 }
