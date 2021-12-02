@@ -560,6 +560,28 @@ p a {
   }
 }
 
+@media screen and (min-width: 630px) { 
+  .location__flex {
+    flex-wrap: wrap;
+  }
+
+    form {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "name email"
+        "button button";
+        gap: 1em;
+    }
+  
+  .signup__button {
+    font-size: .9rem;
+  }
+  
+    .footer__info {
+      justify-content: space-between;
+    } 
+  } 
+
     @media screen and (max-width: 680px) {
 
     .hero__text, .hero__img, .btn {
@@ -578,39 +600,12 @@ p a {
     .pastry-grid {
         grid-template-rows: repeat(4, 1fr);
       }
-      
-      .footer__info {
-        justify-content: space-between;
-      } 
-    }
-    
-    @media screen and (min-width: 630px) { 
-    .location__flex {
-      flex-wrap: wrap;
-    }
 
-      form {
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-          "name email"
-          "button button";
-          gap: 1em;
-      }
-    
-    .signup__button {
-      font-size: .9rem;
-    }
-    
-      footer {
-        grid-template-columns: 1fr auto;
-        grid-template-areas:
-          "copyright privacy";
-      }
-    
       .footer__info {
         justify-content: space-between;
       } 
-    } 
+    }
+    
 
     @media screen and (max-width: 780px) {
       .hero__text, .hero__img, .btn {
