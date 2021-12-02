@@ -37,6 +37,14 @@ img {
   max-width: 100%;
 }
 
+.txt__uppercase {
+  text-transform: uppercase;
+}
+
+.txt__line-height {
+  line-height: 1.75em;
+}
+
 h1,
 h2,
 h3,
