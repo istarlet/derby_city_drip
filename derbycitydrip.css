@@ -547,9 +547,7 @@ p a {
 
 .hero__text a {
   text-align: center;
-  }
-
- 
+  } 
 }
 
 @media screen and (max-width: 630px) {
@@ -563,12 +561,21 @@ p a {
   }
 }
 
-@media screen and (min-width: 530px) {
+@media screen and (max-width: 780px) {
+  .hero__text, .hero__img, .btn {
+    width: 100%;
+  }
+
+.hero__text a {
+  text-align: center;
+  } 
+
   .location__grid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "location phone hours"
-      "map map hours";
+      "location phone"
+      "map map" 
+      "hours hours";
 
     gap: 2em;
 
@@ -577,10 +584,10 @@ p a {
 .location__flex {
   flex-wrap: wrap;
 }
+
   #hours {
     width: 100%
 }
-
   form {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
