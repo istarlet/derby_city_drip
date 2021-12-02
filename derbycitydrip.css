@@ -553,7 +553,12 @@ p a {
 }
 
 @media screen and (min-width: 600px) {
-
+  footer {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "copyright privacy";
+  }
+}
 
     @media screen and (max-width: 680px) {
 
@@ -573,14 +578,6 @@ p a {
     .pastry-grid {
         grid-template-rows: repeat(4, 1fr);
       }
-
-      
-      footer {
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-          "copyright privacy";
-      }
-    
       
       .footer__info {
         justify-content: space-between;
