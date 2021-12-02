@@ -86,7 +86,7 @@
         <div id="hours">
           <h3>Hours</h3>
           <p>These are our current hours, unforeseen circumstances may cause these to change.</p>
-          <table>
+          <table class="table__hours">
             <tbody>
             <tr>
             <td>Sun:</td>
@@ -358,16 +358,16 @@
   <div class="sign-up signup__mobile--width">
     <form>
       <div id="name-block">
-        <label>
+        <label for="first-name">
           First Name:
         </label>
-        <input type="text" name="name" placeholder="First Name" required />
+        <input type="text" name="first-name" id="first-name" placeholder="First Name" required />
       </div>
       <div id="email-block">
-        <label>
+        <label for="email-address">
           Email Address:
         </label>
-        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="email" name="email-address" id="email-address" placeholder="Email Address" required />
       </div>
       <button type="submit" class="signup__button" id="button">I want free coffee!</button>
     </form>

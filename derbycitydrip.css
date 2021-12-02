@@ -95,7 +95,7 @@ header {
   color: #fff;
   /*
   padding: 1em 0;
-  */
+*/
   text-align: center;
 }
 
@@ -325,6 +325,10 @@ header {
 
 .location__grid > div img {
   max-width: 100%;
+}
+
+.table__hours {
+  width: 100%;
 }
 
 /* Location Section Styles End */
