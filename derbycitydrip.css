@@ -549,6 +549,10 @@ gap: 2.5em;
     "privacy";
 }
 
+.center {
+  text-align: center;
+}
+
 footer p {
   color: #f2f2f2;
   font-size: 1rem;
@@ -573,8 +577,9 @@ p a {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
 }
 
 
@@ -588,6 +593,7 @@ p a {
     grid-template-areas:
       "copyright privacy";
   }
+ 
 }
 
 @media screen and (min-width: 600px) {
@@ -596,6 +602,11 @@ p a {
     grid-template-areas:
       "copyright privacy";
   }
+
+  .footer__info {
+    margin: 0;
+  }
+
 }
 
 @media screen and (min-width: 630px) { 
@@ -638,10 +649,6 @@ p a {
     .pastry-grid {
         grid-template-rows: repeat(4, 1fr);
       }
-
-      .footer__info {
-        justify-content: space-between;
-      } 
     }
     
 
