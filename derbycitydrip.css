@@ -496,6 +496,9 @@ gap: 2.5em;
   grid-area: social;
 }
 
+.sitemap__line-height {
+  line-height: .9rem;
+}
 /*
 .wrapper {
   padding: 60px;
