@@ -424,8 +424,7 @@ label {
   display: block;
 }
 
-input,
-textarea {
+input {
   margin-top: 0.3em;
   padding: 0.6em;
   border: solid 1px #bbb;
