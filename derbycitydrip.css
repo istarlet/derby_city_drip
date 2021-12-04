@@ -67,7 +67,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #45230F;
   margin: 0;
 }
@@ -338,6 +338,12 @@ header {
 .table__hours {
   width: 15em;
 }
+
+
+.location__line-height {
+  line-height: .8em;
+}
+
 
 /* Location Section Styles End */
 
