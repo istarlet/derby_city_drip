@@ -221,7 +221,8 @@ header {
 .hero {
   background-color: #d5e2e2;
   color: #45230f;
-  padding: 1em 0;
+  padding: 2em 0;
+  
 }
 
 .hero__text {
@@ -245,7 +246,7 @@ header {
   flex-wrap: wrap; 
   justify-content: center;
   align-items: center;
-  
+
 }
 
 /* Hero Styles End */
@@ -575,6 +576,7 @@ p a {
   justify-content: center;
   align-items: center;
 }
+
 
 /* Footer Styles End */
 
