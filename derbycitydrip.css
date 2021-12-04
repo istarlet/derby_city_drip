@@ -739,6 +739,10 @@ p a {
           justify-content: space-between;
         }
 
+        .container img {
+          display: flex;
+        }
+
         .location__grid {
           grid-template-columns: 1fr 1fr;
           grid-template-areas:
