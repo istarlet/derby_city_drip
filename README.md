@@ -4,7 +4,11 @@ I chose the Code Louisville FEWD Coffee Shop mockup as my project. https://githu
 
 ## Media Queries
 ```
-Text goes here
+You must include a minimum of 2 media queries that create a better layout/user experience.
+
+They must make some visible changes to your site’s layout, such as re-aligning/moving content 
+areas, changing your menu, changing the location of content areas and images, hiding/showing 
+elements, etc. 
 ```
 
 ## CSS Feature
