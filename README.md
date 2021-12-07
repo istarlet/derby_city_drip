@@ -7,12 +7,12 @@ I chose the Code Louisville FEWD Coffee Shop mockup as my project. https://githu
 ```
 
 ## CSS Feature
+```
 A navigation menu that expands and collapses properly at desktop and mobile sizes, such as by switching between vertical 
 and horizontal styles, or is opened and closed by clicking the “hamburger” icon
-
 ```
 My text here
-```
+
 ## Javascript Feature
 Show/hide one or more content areas or elements on your site through clicking a button or some other user interaction - must be done with some JavaScript code.
 
