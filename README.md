@@ -1,9 +1,10 @@
 # Derby City Drip
 ## Description
+I chose the Code Louisville FEWD Coffee Shop mockup as my project. https://github.com/CodeLouisville/FEWD-CoffeeShop
 
 ## Media Queries
 ```
-I chose the Code Louisville FEWD Coffee Shop mockup as my project. https://github.com/CodeLouisville/FEWD-CoffeeShop
+Text goes here
 ```
 
 ## CSS Feature
