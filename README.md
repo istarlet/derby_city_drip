@@ -3,7 +3,7 @@
 
 ## Media Queries
 ```
-I chose to use the [CodeLouisville FEWD Coffee Shop] [..CodeLouisville/FEWD-CoffeeShop] as my project. 
+I chose the Code Louisville FEWD Coffee Shop mockup as my project. https://github.com/CodeLouisville/FEWD-CoffeeShop
 ```
 
 ## CSS Feature
