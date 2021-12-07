@@ -3,7 +3,7 @@
 
 ## Media Queries
 ```
-My text here
+I chose to use [title](https://github.com/CodeLouisville/FEWD-PetShop) as my project. 
 ```
 
 ## CSS Feature
