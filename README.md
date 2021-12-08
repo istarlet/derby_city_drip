@@ -2,7 +2,7 @@
 ## Description
 I chose the [Code Louisville FEWD Coffee Shop](https://github.com/CodeLouisville/FEWD-CoffeeShop) as my Code Kentucky project. I approached this project like I was a frontend web developer and my job was to turn the provided mockups into a fully functioning web page. I tried to recreate the mockups as faithfully as possible. 
 
-You can also view my project by clicking this link [Derby City Coffee](https://naughty-volhard-234aeb.netlify.app/). 
+Alternatively, you can view my project by clicking this link [Derby City Coffee](https://naughty-volhard-234aeb.netlify.app/). 
 
 ## Media Queries
 ```
