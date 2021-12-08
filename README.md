@@ -23,7 +23,7 @@ My text here
 Show/hide one or more content areas or elements on your site through clicking a button or some other user 
 interaction - must be done with some JavaScript code.
 ```
-My mobile navigation uses Javascript to "listen" for the "click" of the "hamburger menu icon" which will toggle the drown down mobile navigation from Hide/Show.
+My mobile navigation uses Javascript to "listen" for the "click" of the "hamburger menu icon" which will then toggle the drop down nav menu from Hide/Show.
 
 ## Additional CSS Feature
 ```
