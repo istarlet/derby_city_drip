@@ -35,6 +35,8 @@ two-column layout on a desktop.
 ```
 I used a combination of CSS Grid and Flexbox. 
 
+## Accessibility
+
 ## Future Updates
 
 
