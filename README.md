@@ -1,6 +1,6 @@
 # Derby City Drip
 ## Description
-I chose the [Code Louisville FEWD Coffee Shop](https://github.com/CodeLouisville/FEWD-CoffeeShop), a fictional coffee shop named "Derby City Drip" that was in need of a website, as my Code Kentucky project. I approached this project like I was a frontend web developer and my job was to turn the provided mockups into a fully functioning web page. I tried to recreate the mockups as faithfully as possible. 
+I created a one-page website for the fictional **Derby City Drip** coffee shop for my FEWD Code Kentucky project. The design mockups came fromc [Code Louisville FEWD Coffee Shop](https://github.com/CodeLouisville/FEWD-CoffeeShop). I approached this project like I was a frontend web developer and my job was to turn the provided mockups into a fully functioning one-page website. I tried to recreate the mockups as faithfully as possible. 
 
 Alternatively, you can view my project by clicking this link [Derby City Coffee](https://naughty-volhard-234aeb.netlify.app/). 
 
@@ -38,8 +38,8 @@ I used a combination of CSS Grid and Flexbox.
 ## Accessibility
 ```
 Perform a Web Accessibility Compliance review on your own site and document all the tools and testing you 
-used to verify your site is accessible. This may involve a written write-up, screenshots, and other ways 
-of showing that you evaluated your site for accessibility compliance. Include the report in your GitHub 
+used to verify your site is accessible. This may involve a written write-up, screenshots, and other ways of 
+showing that you evaluated your site for accessibility compliance. Include the report in your GitHub 
 repository.
 ```
 
