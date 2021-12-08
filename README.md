@@ -13,8 +13,10 @@ changing your menu, changing the location of content areas and images, hiding/sh
 ```
 1. Top navigation changes from horizontal to a vertical, drop-down menu.
 2. Hero section changes from horizontally aligned text-block and image to vertically stacked with the image underneath the text-block.
-3. Location Map section changes from a 3-column layout ===> 2-column layout ===> 1-column layout. 
-4. Menu Item sections change from a 2-column layout ===> 1-column layout.
+3. Location Map section changes from a 3-column layout ==> 2-column layout ==> 1-column layout. 
+4. Menu Item sections change from a 2-column layout ==> 1-column layout.
+5. DCD Signup section changes from a 2-column layout ==> 1-column layout.
+6. Sitemap section changes from 3-column layout ==> 1-column layout.
 
 ## CSS Feature
 ```
