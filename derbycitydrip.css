@@ -556,7 +556,7 @@ row-gap: 2.5em;
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: .8em;
+  padding: .8em 0;
 }
 
 .footer__grid {
