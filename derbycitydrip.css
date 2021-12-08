@@ -367,6 +367,13 @@ header {
   text-align: center;
 }
 
+.pastry__container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
 .coffee-grid {
   display: grid;
   grid-template-rows: repeat(14, 1fr);
