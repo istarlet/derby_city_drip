@@ -6,9 +6,8 @@ I chose the [Code Louisville FEWD Coffee Shop](https://github.com/CodeLouisville
 ```
 You must include a minimum of 2 media queries that create a better layout/user experience.
 
-They must make some visible changes to your site’s layout, such as re-aligning/moving content 
-areas, changing your menu, changing the location of content areas and images, hiding/showing 
-elements, etc. 
+They must make some visible changes to your site’s layout, such as re-aligning/moving content areas, 
+changing your menu, changing the location of content areas and images, hiding/showing elements, etc. 
 ```
 
 ## CSS Feature
@@ -27,10 +26,10 @@ My mobile navigation uses Javascript to "listen" for the "click" of the "hamburg
 
 ## Additional CSS Feature
 ```
-Use Flexbox or CSS Grid to organize content areas based on mobile or desktop views. Simply applying a basic 
-flex property so that text wraps as you change screen sizes does not count. You must actually rearrange 
-content or perform some more advanced feature. For example, swapping from a single column layout to a 
-two-column layout on a desktop.
+Use Flexbox or CSS Grid to organize content areas based on mobile or desktop views. Simply applying a basic flex 
+property so that text wraps as you change screen sizes does not count. You must actually rearrange content or 
+perform some more advanced feature. For example, swapping from a single column layout to a two-column layout on 
+a desktop.
 ```
 I used a combination of CSS Grid and Flexbox. 
 
