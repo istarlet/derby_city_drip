@@ -279,7 +279,7 @@ header {
   background-attachment: none;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 3em 0;
+  padding: 4em 0;
 }
 
 .container__finely {
@@ -298,7 +298,7 @@ header {
 .location__container {
   background-color: #204d48;
   color: #fff;
-  padding: 3em 0;
+  padding: 4em 0;
   margin: auto;
 }
 
@@ -319,7 +319,7 @@ header {
     "map"
     "hours";
   
-  gap: 2em;
+  row-gap: 2em;
 }
 
 #location {
@@ -406,7 +406,8 @@ header {
 .signup__container {
   background-color: #204d48;
   color: #fff;
-  padding: 3em 0;
+  padding-top: 3em;
+  padding-bottom: 2em;
 }
 
 .signup__container p {
@@ -414,7 +415,7 @@ header {
 }
 
 .sign-up {
-  width: 80%;
+  width: 1000%;
   max-width: 750px;
   margin: 0 auto;
 }
@@ -488,7 +489,7 @@ form {
 .sitemap__container {
   background: #233237;
   color: #fff;
-  padding: 3em 0;
+  padding: 4em 0;
   font-size: 1rem;
 }
 
@@ -503,7 +504,7 @@ form {
     "sitemap-location"
     "sitemap"
     "social";
-gap: 2.5em;
+row-gap: 2.5em;
 }
 
 #sitemap-location {
@@ -548,12 +549,14 @@ gap: 2.5em;
 .footer__container {
   background: #091b21;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .container__footer {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
+  padding: .8em;
 }
 
 .footer__grid {
@@ -562,6 +565,8 @@ gap: 2.5em;
   grid-template-areas:
     "copyright"
     "privacy";
+
+  justify-content: space-between;
 }
 
 footer p {
@@ -583,7 +588,6 @@ p a {
 }
 
 .footer__info {
-  margin-bottom: .5em;
   padding-bottom: .5em;
   list-style: none;
   display: flex;
@@ -592,7 +596,6 @@ p a {
   justify-content: center;
 
 }
-
 
 /* Footer Styles End */
 
@@ -607,6 +610,7 @@ p a {
   }
 }
 
+/*
 @media screen and (min-width: 580px) {
   footer {
     grid-template-columns: 1fr 1fr;
@@ -618,12 +622,14 @@ p a {
     justify-content: space-between;
   } 
 }
-
+*/
 
 @media screen and (min-width: 630px) { 
+  /*
   .location__flex {
     flex-wrap: wrap;
   }
+  */
 
     form {
       grid-template-columns: 1fr 1fr;
@@ -648,9 +654,14 @@ p a {
         width: 100%;
       }
     
+    .hero__img {
+      padding-top: 2em;
+    }
+
     .hero__text a {
       text-align: center;
       } 
+
 
     .coffee-grid {
         grid-template-rows: repeat(14, 1fr);
@@ -662,8 +673,9 @@ p a {
       }
     }
     
-
+/*
     @media screen and (max-width: 780px) {
+    
       .hero__text, .hero__img, .btn {
         width: 100%;
       }
@@ -672,6 +684,7 @@ p a {
       text-align: center;
       } 
     }
+    */
 
     @media screen and (min-width: 880px) {
       .coffee-grid {
@@ -733,7 +746,8 @@ p a {
           position: relative;
           background: #d5e2e2;
         }
-        
+      
+    
         .nav__list {
           display: flex;
           margin: 0;
