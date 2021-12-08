@@ -36,6 +36,12 @@ two-column layout on a desktop.
 I used a combination of CSS Grid and Flexbox. 
 
 ## Accessibility
+```
+Perform a Web Accessibility Compliance review on your own site and document all the tools and testing you 
+used to verify your site is accessible. This may involve a written write-up, screenshots, and other ways 
+of showing that you evaluated your site for accessibility compliance. Include the report in your GitHub 
+repository.
+```
 
 ## Future Updates
 
