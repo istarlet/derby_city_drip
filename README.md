@@ -1,6 +1,6 @@
 # Derby City Drip
 ## Description
-I chose the [Code Louisville FEWD Coffee Shop](https://github.com/CodeLouisville/FEWD-CoffeeShop) mockup as my project. I approached this project like I was a frontend developer and my job was to turn the provided mockups into a fully functioning web page. I tried to recreate the mockups as faithfully as possible. 
+I chose the [Code Louisville FEWD Coffee Shop](https://github.com/CodeLouisville/FEWD-CoffeeShop) mockup as my project. I approached this project like I was a frontend web developer and my job was to turn the provided mockups into a fully functioning web page. I tried to recreate the mockups as faithfully as possible. 
 
 ## Media Queries
 ```
@@ -16,14 +16,14 @@ elements, etc.
 A navigation menu that expands and collapses properly at desktop and mobile sizes, such as by switching 
 between vertical and horizontal styles, or is opened and closed by clicking the “hamburger” icon
 ```
-My text here
+My navigation menu is horizontal on larger screens and then switches to a vertical, drop down menu for mobile devices that is displayed or hidden by Javascript.
 
 ## Javascript Feature
 ```
 Show/hide one or more content areas or elements on your site through clicking a button or some other user 
 interaction - must be done with some JavaScript code.
 ```
-My mobile navigation uses Javascript to "listen" for the "click" of the "hamburger menu icon" which will then toggle the drop down nav menu from Hide/Show.
+My mobile navigation uses Javascript to "listen" for the "click" of the "hamburger icon" which will then toggle the drop down navigation menu from Hide/Show.
 
 ## Additional CSS Feature
 ```
