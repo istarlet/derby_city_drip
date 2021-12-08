@@ -1,6 +1,6 @@
 # Derby City Drip
 ## Description
-I created a one-page website for the fictional **Derby City Drip** coffee shop for my FEWD Code Kentucky project. The design mockups came fromc [Code Louisville FEWD Coffee Shop](https://github.com/CodeLouisville/FEWD-CoffeeShop). I approached this project like I was a frontend web developer and my job was to turn the provided mockups into a fully functioning one-page website. I tried to recreate the mockups as faithfully as possible. 
+I created a one-page website for the fictional **Derby City Drip** coffee shop for my FEWD [Code Kentucky](https://codekentucky.org/) project. The design mockups came fromc [Code Louisville FEWD Coffee Shop](https://github.com/CodeLouisville/FEWD-CoffeeShop). I approached this project like I was a frontend web developer and my job was to turn the provided mockups into a fully functioning one-page website. I tried to recreate the mockups as faithfully as possible. 
 
 Alternatively, you can view my project by clicking this link [Derby City Coffee](https://naughty-volhard-234aeb.netlify.app/). 
 
