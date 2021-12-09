@@ -40,7 +40,7 @@ flex property so that text wraps as you change screen sizes does not count. You 
 content or perform some more advanced feature. For example, swapping from a single column layout to a 
 two-column layout on a desktop.
 ```
-I used a combination of CSS Grid and Flexbox. 
+I used a combination of CSS Grid and Flexbox. I fell in love with Grid-Template-Areas.
 
 ## Accessibility
 ```
