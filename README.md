@@ -42,15 +42,8 @@ two-column layout on a desktop.
 ```
 I used a combination of CSS Grid and Flexbox. I fell in love with Grid-Template-Areas.
 
-## Accessibility
-```
-Perform a Web Accessibility Compliance review on your own site and document all the tools and testing you 
-used to verify your site is accessible. This may involve a written write-up, screenshots, and other ways of 
-showing that you evaluated your site for accessibility compliance. Include the report in your GitHub 
-repository.
-```
-
 ## Future Updates
+I am working on a v2.0 of this site so I can clean up the code and incorporate new things I've learned along the way. This project will remain to remind me of how far I've come in my coding journey. 
 
 
 
